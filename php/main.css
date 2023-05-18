@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(86, 1, 166);
+    color: #fff;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+ul li {
+    margin: 0 1rem;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 2rem 0;
+    /* border: 1px solid red; */
+}
+
+.header-info a {
+
+    display: block;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    color: #000;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+body {
+    background: url("https://res-3.cloudinary.com/fieldfisher/image/upload/f_jpg,q_auto/v1/sectors/technology/tech_neoncircuitboard_857021704_medium_lc5h05");
+
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.btn {
+    width: 200px;
+    transition: all 300ms;
+    border: none;
+}
+
+.btn:active {
+    border: none;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+}
+
+.products-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    gap: 1rem;
+}
+
+.products-item {
+    transition: all 300ms;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 1px #3d3d3d;
+    cursor: pointer;
+    border-radius: 1em;
+}
+
+.products-item:hover {
+
+    transform: translateY(-5px);
+}
+
+.products-detail {
+    padding: 1rem;
+}
+
+.products-price {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: end;
+    background: #777777;
+    color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+
+}
+
+.products-right {
+    font-size: 12px;
+}
+
+.products-img img {
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+footer {
+    background-color: rgb(86, 1, 166);
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    margin-top: 50vh;
+}
+
+.icon-btn {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-btn .text {
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 300ms;
+    transform: translateX(-15px);
+}
+
+.icon-btn .icon {
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 1s;
+    opacity: 0;
+    transform: translateX(15px);
+}
+
+.btn:hover .icon {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.btn:hover .text {
+    transform: translateX(0px);
+}
